@@ -4,3 +4,5 @@
 2. [Malaria Detection using Deep Learning | Python Final Year IEEE Project 2020 - 2021](https://www.youtube.com/watch?v=PHK9RrYfEQ4&ab_channel=JPINFOTECHPROJECTS)
 3. [Build a system to identify fake news articles!](https://medium.com/nerd-for-tech/build-a-system-to-identify-fake-news-articles-6604968043cb)
 4. [END TO END Machine learning Project deployment on Flask server.](https://www.youtube.com/watch?v=PH0M8ktKCRo)
+5. [Live- Implementation of End To End Kaggle Machine Learning Project With Deployment](https://www.youtube.com/watch?v=p_tpQSY1aTs&ab_channel=KrishNaik)
+6. [Car-Price-Prediction](https://github.com/krishnaik06/Car-Price-Prediction/blob/master/Untitled.ipynb)
