@@ -6,3 +6,4 @@
 4. [END TO END Machine learning Project deployment on Flask server.](https://www.youtube.com/watch?v=PH0M8ktKCRo)
 5. [Live- Implementation of End To End Kaggle Machine Learning Project With Deployment](https://www.youtube.com/watch?v=p_tpQSY1aTs&ab_channel=KrishNaik)
 6. [Car-Price-Prediction](https://github.com/krishnaik06/Car-Price-Prediction/blob/master/Untitled.ipynb)
+7. [venugopalkadamba Multi_Disease_Predictor](https://github.com/venugopalkadamba/Multi_Disease_Predictor)
