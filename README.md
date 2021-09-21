@@ -7,3 +7,4 @@
 5. [Live- Implementation of End To End Kaggle Machine Learning Project With Deployment](https://www.youtube.com/watch?v=p_tpQSY1aTs&ab_channel=KrishNaik)
 6. [Car-Price-Prediction](https://github.com/krishnaik06/Car-Price-Prediction/blob/master/Untitled.ipynb)
 7. [venugopalkadamba Multi_Disease_Predictor](https://github.com/venugopalkadamba/Multi_Disease_Predictor)
+8. [End to End Deployment of Breast Cancer Prediction Through Machine Learning using Flask](https://medium.com/analytics-vidhya/end-to-end-deployment-of-breast-cancer-prediction-through-machine-learning-using-flask-a40abbabf1fe)
