@@ -11,7 +11,3 @@
 9. [Build a Machine Learning web application from scratch in Python with Streamlit.](https://morioh.com/p/28f32a0d90a2?f=5c21fb01c16e2556b555ab32&fbclid=IwAR2IEef_M-c4je1UrV1XE0EX-S6NX6j1ib2b6yHAc7LPMfAxuurdzaAxxdY)
 10. [ditikrushnaEnd-to-End-Diabetes-Prediction-Application-Using-Machine-Learning](https://github.com/ditikrushna/End-to-End-Diabetes-Prediction-Application-Using-Machine-Learning)
 11. [Disease-Prediction-from-Symptoms](https://github.com/anujdutt9/Disease-Prediction-from-Symptoms)
-
-
-
-![alt text](https://github.com/[Hasaanmaqsood]/[Water-borne-diseases]/blob/[branch]/image.jpg?raw=true)
