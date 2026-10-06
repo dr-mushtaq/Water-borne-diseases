@@ -149,7 +149,7 @@ flowchart TD
 
 ## 🖼️ Dashboard Reference
 
-![Research dashboard showing malaria summary cards, area and gender charts, and a patient status prediction form](docs/images/research_dashboard.jpg)
+![https://github.com/dr-mushtaq/Water-borne-diseases/blob/main/Images/Overview.JPG]
 
 *User-supplied research dashboard reference. The displayed figures are reference content, not current surveillance data or results from an implemented application in this repository.*
 
