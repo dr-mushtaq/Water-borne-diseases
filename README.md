@@ -73,6 +73,7 @@ If you're not familiar with Git or Pull Requests, you can still contribute:
 
 ## 🏗️ System Architecture
 
+
 ### 1. Disease Surveillance and Analytics Engine
 
 - Collect and validate disease and laboratory records from participating facilities
