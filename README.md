@@ -70,6 +70,7 @@ If you're not familiar with Git or Pull Requests, you can still contribute:
 - Prepare synthetic data for the initial prototype.
 
 **Setup status:** Installation commands will be added when application code and dependencies are available. This workspace currently contains documentation, the reference paper, and the dashboard image.
+
 ## 🏗️ System Architecture
 
 
@@ -80,6 +81,14 @@ If you're not familiar with Git or Pull Requests, you can still contribute:
 - Compare recent case counts with historical or seasonal baselines
 - Explore forecasting and hotspot-detection approaches
 - Generate signals for review by authorized public health personnel
+
+### 2. Hospital and Laboratory Reporting
+
+- Accept standardized data through CSV uploads
+- Support future integration with approved hospital and laboratory systems
+- Validate required fields, dates, disease classifications, and test results
+- Identify duplicate submissions and track corrections
+- Report missing or delayed facility submissions
 
 ### 2. AI and Early-Warning Engine
 
