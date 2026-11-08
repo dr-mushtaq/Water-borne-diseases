@@ -185,6 +185,35 @@ flowchart TD
 
 *User-supplied research dashboard reference. The displayed figures are reference content, not current surveillance data or results from an implemented application in this repository.*
 
+## 🧪 Example Interaction
+
+**Illustrative example using fictional data:**
+
+A reporting facility submits a weekly file with typhoid test results for a demonstration district.
+
+**System processing:**
+
+- Checks the file for required fields and invalid values
+- Identifies possible duplicate records
+- Summarizes reported cases for the period
+- Compares the summary with an agreed surveillance reference level
+- Flags an unusual increase for review
+
+**Illustrative system output:**
+
+```text
+Disease: Typhoid
+Area: Demonstration District
+Reporting Period: Most recent complete week
+Reported Confirmed Cases: 24
+Reporting Coverage: 4 of 5 expected facilities
+Signal: Configured reference level exceeded
+Status: Awaiting authorized public health review
+Suggested next step: Check data quality and investigate the increase
+```
+
+The example values are fictional. A signal does not independently confirm an outbreak or provide a diagnosis.
+
 ### Proposed Dashboard Layout
 
 | Panel | Planned Content |
