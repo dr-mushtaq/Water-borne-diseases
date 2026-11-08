@@ -106,6 +106,10 @@ If you're not familiar with Git or Pull Requests, you can still contribute:
 - Show reporting coverage and the latest data refresh time.
 - Offer separate views for hospital staff and district health officers.
 - Support acknowledgment, investigation notes, assignment, and alert closure.
+- Display case summaries, trends, geographic patterns, and alerts
+- Provide separate views for malaria and typhoid
+- Show reporting coverage and the latest data update
+- Help health teams review and investigate unusual changes
 
 ### 4. Data and Analytics Layer
 
