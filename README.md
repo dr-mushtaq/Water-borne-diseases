@@ -70,7 +70,6 @@ If you're not familiar with Git or Pull Requests, you can still contribute:
 - Prepare synthetic data for the initial prototype.
 
 **Setup status:** Installation commands will be added when application code and dependencies are available. This workspace currently contains documentation, the reference paper, and the dashboard image.
-
 ## 🏗️ System Architecture
 
 
