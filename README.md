@@ -247,16 +247,16 @@ The following are **candidate technologies for future development**, not a claim
 | **Deployment** | Docker, subject to hosting and governance requirements |
 | **Data Exchange** | CSV uploads; approved APIs where available |
 
-### Candidate Models for Surveillance and Forecasting
+### Candidate Approaches for Surveillance
 
-| Approach | Input Data | Intended Use | Evaluation Considerations |
-| --- | --- | --- | --- |
-| **Historical or Seasonal Baseline** | Past case counts by area and reporting period | Establish a reference forecast | Required comparison for more complex models |
-| **Statistical Time-Series Models** | Regularly aggregated disease counts | Estimate future case trends | Assess seasonality, reporting gaps, and forecast uncertainty |
-| **Random Forest / Gradient Boosting** | Lagged counts, calendar features, and approved contextual variables | Explore nonlinear forecasting relationships | Use time-based evaluation and prevent future-data leakage |
-| **Surveillance Threshold Rules** | Current observations and a defined reference level | Flag increases for investigation | Evaluate false alerts, missed events, and reporting coverage |
+| Approach | Potential Use | Evaluation Considerations |
+| --- | --- | --- |
+| **Historical or Seasonal Baseline** | Compare current counts with previous periods | Use as a reference before adopting more complex models |
+| **Time-Series Models** | Explore future aggregate case counts | Evaluate forecast error, uncertainty, seasonality, and reporting gaps |
+| **Tree-Based Models** | Explore relationships between past counts and approved contextual data | Use time-based validation and prevent data leakage |
+| **Threshold-Based Signals** | Flag increases for review | Evaluate missed events, false alerts, and reporting completeness |
 
-Medical language models are not required for the initial structured-data workflow. Extraction from free-text clinical notes may be investigated later if a defined use case, authorized data access, and a validation process justify it.
+No model should be described as accurate or production-ready without project-specific evaluation.
 
 ---
 
@@ -281,72 +281,54 @@ Collect only data justified by the agreed surveillance purpose. Define repeat-te
 
 ### Phase 1: Prototype
 
-- Confirm pilot hospitals, districts, case definitions, and reporting workflows.
-- Create a synthetic dataset and standardized CSV schema.
-- Build validated uploads, disease summary cards, trend charts, and a geographic view.
-- Implement configurable threshold alerts with officer acknowledgment.
+- Review the available datasets, notebooks, diagrams, and project documents
+- Define the disease case categories and reporting periods
+- Create a documented data format; use synthetic data for early demonstrations
+- Build an initial workflow for data validation and aggregate summaries
+- Create a basic dashboard for trends and reporting coverage
 
-### Phase 2: 🧪 Evaluation
+### Phase 2: Evaluation
 
-- Validate imports, correction handling, deduplication, and aggregate totals.
-- Evaluate forecasts using **MAE, RMSE, and prediction interval coverage**.
-- Measure alert **precision, recall, false-alert frequency, and detection lead time** against reviewed events.
-- Use held-out future periods and assess performance in withheld facilities or districts.
-- Evaluate malaria and typhoid separately and compare models with seasonal baselines.
-- Exclude information unavailable at prediction time and monitor reporting delays.
+- Check data quality, missing values, duplicate handling, and case-counting rules
+- Compare forecasting approaches with simple historical or seasonal baselines
+- Use time-based test sets to evaluate forecasts on later reporting periods
+- Consider MAE, RMSE, and prediction-interval coverage for forecasting
+- Evaluate alert sensitivity, missed events, and false-alert frequency
+- Assess malaria and typhoid separately
 
-**No platform benchmark results are available yet.** Accuracy figures from the previous medicine recommendation project are not applicable.
+> Results must be reported only after evaluation on suitable project data. Results from other datasets or projects should not be presented as this project's performance.
 
 ### Phase 3: Enhancement
 
-- Add historical forecasts and uncertainty displays after evaluation.
-- Improve geographic analysis and reporting-completeness indicators.
-- Add investigation notes, escalation, and aggregate report exports.
-- Refine usability with hospital staff and district health officers.
+- Improve dashboard usability and geographic summaries
+- Add reporting-completeness and data-freshness indicators
+- Explore forecast visualizations with uncertainty information
+- Add alert review and investigation tracking
+- Collect feedback from relevant public health stakeholders
 
-### Phase 4: Connected Pilot and Deployment
+### Phase 4: Integration and Pilot
 
-- Integrate one approved hospital or laboratory system.
-- Reconcile synchronized data with source records.
-- Test notification delivery, monitoring, backups, and restoration.
-- Evaluate alert usefulness and response times during a supervised pilot.
-- Expand participating facilities after reviewing pilot findings.
+- Identify an authorized pilot partner and define permitted data use
+- Test an approved hospital or laboratory data exchange
+- Reconcile uploaded or synchronized records with their source
+- Test monitoring, backups, access controls, and recovery procedures
+- Review pilot results before considering wider deployment
 
-### Phase 5: Database and Data Layer
+### Phase 5: Data and Storage
 
-*Begin foundational storage work during Phase 1; this phase expands and hardens it.*
+- Define a consistent data schema and data provenance requirements
+- Establish appropriate access controls, retention, and correction procedures
+- Protect sensitive data and collect only what is needed for the defined purpose
+- Track dataset versions and model inputs for reproducible evaluation
+- Document limitations caused by missing or delayed reporting
 
-- Maintain persistent storage for validated records, imports, aggregates, forecasts, and alerts.
-- Implement role-based access, organization boundaries, encryption, and audit logs.
-- Establish retention rules, correction workflows, and data versioning.
-- Monitor missing data, schema changes, and model/data drift.
-- Mark forecasts unavailable when required data are insufficient.
+### Phase 6: Governance and Safety
 
-### Phase 6: Governance and Commercial Readiness
-
-*Start governance planning before any live patient-data pilot.*
-
-- Establish data-sharing authority, permitted uses, hosting arrangements, and access responsibilities.
-- Review applicable local requirements with partner organizations; avoid assuming a particular regulatory classification or approval route.
-- Document intended use, model limitations, evaluation results, and human review responsibilities.
-- Apply aggregation and small-count suppression where needed to reduce disclosure risk.
-- Define operational support, incident handling, and response ownership.
-- Agree on readiness criteria before operational rollout.
-
-This README does not certify regulatory approval or compliance with any legal framework.
-
-## 💼 Commercial Extension
-
-The proposed platform would serve **district health departments, hospital networks, diagnostic laboratory networks, and public health programs**.
-
-Potential offerings include:
-
-- Platform subscriptions for disease dashboards and alert management.
-- Hospital integration, configuration, and onboarding services.
-- Approved hosted or on-premises deployment options.
-- Training, maintenance, and operational support.
-
-Pricing remains to be defined with pilot partners. Early value should be measured through reporting timeliness, data quality, facility coverage, useful alerts, and time to acknowledgment and investigation. Claims about improved health outcomes require separate evaluation.
+- Agree on data-sharing authority, permitted uses, and responsible personnel
+- Review applicable local privacy, health-data, and regulatory requirements with qualified partners
+- Document intended use, system limitations, and human review responsibilities
+- Require authorized public health review before acting on surveillance signals
+- Do not claim regulatory approval or legal compliance unless it has been independently established
 
 ## 🔮 Future Scope
 
