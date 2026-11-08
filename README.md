@@ -230,53 +230,22 @@ Filters should apply consistently across panels and exports. Missing reports mus
 
 The patient prediction form in the reference is outside the initial operational MVP. A negative model estimate must never be displayed as proof that a patient is healthy.
 
----
-
-## 🧪 Example Interaction
-
-**Hospital Input — fictional demonstration:**
-
-A reporting officer uploads a weekly laboratory file containing typhoid test results for patients residing in Demonstration District, Area A.
-
-**System Processing:**
-
-- Validate and deduplicate records.
-- Summarize cases for the selected reporting period.
-- Compare the aggregate with the configured surveillance threshold.
-- Show reporting coverage and create an alert for officer review.
-
-**Illustrative System Output:**
-
-```text
-Disease: Typhoid
-Area: Demonstration District, Area A
-Reporting Period: Most recent complete week
-Reported Confirmed Cases: 24
-Illustrative Reference Level: 10 cases per week
-Reporting Coverage: 4 of 5 expected facilities
-Alert: Configured surveillance threshold exceeded
-Status: Awaiting district health officer review
-Follow-up: Review data quality and investigate the increase
-```
-
-These values are fictional and do not define a validated outbreak threshold. The alert requests investigation; it does not independently confirm an outbreak.
-
 ## 🧰 Technology Stack
 
-**Proposed design candidates — not installed dependencies or finalized technology selections.**
+The following are **candidate technologies for future development**, not a claim that they are already installed or used by the project.
 
 | Component | Candidate Tools |
 | --- | --- |
-| **ML and Statistical Models** | scikit-learn, XGBoost, statsmodels |
-| **Data Processing** | Python, pandas, NumPy |
-| **Backend** | FastAPI |
-| **Frontend** | React with TypeScript; Streamlit may support an initial analytical prototype |
-| **Maps and Spatial Data** | Leaflet, PostgreSQL with PostGIS |
+| **Data Analysis** | Python, pandas, NumPy |
+| **Statistical Models** | statsmodels, scikit-learn |
+| **Forecasting Experiments** | Seasonal baselines, time-series models, XGBoost |
+| **Backend** | FastAPI or Flask |
+| **Frontend / Prototype Dashboard** | Streamlit or React |
 | **Database** | PostgreSQL |
-| **Background Processing** | Celery and Redis, if required by integration workloads |
-| **Model and Data Versioning** | MLflow and DVC |
-| **Integration** | CSV and approved APIs; HL7/FHIR adapters where supported and tested |
-| **Deployment** | Docker in an approved hosted or on-premises environment |
+| **Geographic Analysis** | Leaflet, PostGIS |
+| **Data and Model Versioning** | DVC, MLflow |
+| **Deployment** | Docker, subject to hosting and governance requirements |
+| **Data Exchange** | CSV uploads; approved APIs where available |
 
 ### Candidate Models for Surveillance and Forecasting
 
