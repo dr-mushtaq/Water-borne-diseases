@@ -30,7 +30,7 @@ We welcome suggestions and contributions to this list of Water-borne diseases!
      - Complete Code
      - Complete Diagram
 4. Create a **Pull Request (PR) after Final Viva** with a clear title and description of your changes.
-5.  Please read:[CONTRIBUTING.md](https://github.com/dr-mushtaq/Awesome-AI-Tools-Resources/blob/main/CONTRIBUTING.md)
+5.  Please read:[CONTRIBUTING.md](https://github.com/dr-mushtaq/Water-borne-diseases/blob/main/CONTRIBUTING.md)
 
 ---
 
