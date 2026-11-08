@@ -16,6 +16,35 @@ The platform aims to help health teams identify unusual increases in reported ca
 
 ---
 
+## 🤝 Contributing
+
+We welcome suggestions and contributions to this list of Water-borne diseases!
+
+### ✅ How to Contribute
+
+1. **Fork** this repository.
+2. **Add your Projects Folder** in the appropriate category (alphabetically, if possible).
+3. Include the following details:
+   - Folder Name **Student Name** (Student ID)- include following files
+     - A **Details description of your project.md file **
+     - Complete Code
+     - Complete Diagram
+4. Create a **Pull Request (PR) after Final Viva** with a clear title and description of your changes.
+5.  Please read:[CONTRIBUTING.md](https://github.com/dr-mushtaq/Awesome-AI-Tools-Resources/blob/main/CONTRIBUTING.md)
+
+---
+
+### 💡 Alternative: Suggest via GitHub Issues
+
+If you're not familiar with Git or Pull Requests, you can still contribute:
+
+- Open a **GitHub Issue** with the following format:
+- Sent email : mushtaq.hussain@vu.edu.pk
+
+---
+<details>
+<summary>
+
 ## 🎯 Objectives
 
 - Enable **hospital and laboratory data uploads and automated synchronization**.
