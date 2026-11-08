@@ -135,57 +135,47 @@ flowchart TD
 
 ## 📌 Key Features
 
-### 💡 AI-Powered Disease Forecasting
+### 🦠 Disease Surveillance
 
-- Estimate malaria and typhoid trends for a defined future reporting period.
-- Compare forecasts with simple historical and seasonal baselines.
-- Show uncertainty and indicate when data are insufficient.
-- Keep **observed cases, model estimates, and rule-based signals** clearly distinguishable.
+- Monitor malaria and typhoid cases separately
+- Distinguish suspected cases from confirmed cases
+- Review disease trends across reporting periods and locations
+- Keep observed data separate from forecasts or model estimates
 
-### 🏥 Hospital-Connected Reporting
+### 🏥 Hospital and Laboratory Reporting
 
-- Standardized uploads with validation summaries.
-- Planned automatic synchronization of new and updated records.
-- Facility reporting status and missing-submission indicators.
-- Traceable corrections and safe retries that avoid duplicate imports.
+- Plan for standardized data uploads
+- Validate incoming records and provide error summaries
+- Track reporting completeness and data freshness
+- Support future connections to approved health information systems
 
-### 🗺️ Geographic Hotspot Identification
+### 🗺️ Geographic Monitoring
 
-- Map reported cases by approved district or locality boundaries.
-- Highlight unusual increases that warrant investigation.
-- Show population-adjusted rates only when suitable denominators exist.
-- Distinguish patient residence from hospital location.
-- Account for missing reports and changes in facility participation.
+- Summarize reported cases by approved district or locality boundaries
+- Highlight unusual increases for further investigation
+- Distinguish a patient's area of residence from the reporting facility
+- Consider missing or delayed reports when interpreting geographic patterns
 
-### 🚨 Early-Warning Alerts
+### 🚨 Early-Warning Signals
 
-- Configurable disease- and district-specific thresholds.
-- In-app alert queue with severity, evidence, and ownership.
-- Acknowledgment, escalation, and investigation tracking.
-- Planned email/SMS delivery with minimal sensitive information.
-- Deduplication and cooldown rules to reduce repeated notifications.
+- Compare current case counts with agreed reference levels
+- Flag unusual patterns for authorized personnel to review
+- Record the reason for an alert and its review status
+- Treat alerts as prompts for investigation—not as confirmation of an outbreak
 
 ### 📊 Data-Driven Insights
 
-- Trends in suspected cases, confirmed cases, and tests performed.
-- Positivity rates where appropriate testing denominators are available.
-- Aggregated age-band and sex distributions with unknown values identified.
-- Reporting completeness, data freshness, and validation error summaries.
-- Downloadable reports for authorized users.
+- Summarize suspected cases, confirmed cases, and test results
+- Display trends and reporting coverage
+- Support authorized aggregate reports
+- Make limitations and missing data visible to users
 
-### 🌐 Multi-Platform Support
+### 🌐 Extensible Platform
 
-- Web dashboard for hospitals and health departments.
-- Responsive interface for desktop, tablet, and mobile browsers.
-- Approved API integrations with participating health systems.
-- Role-specific access to facility and district information.
-
-### ⚙️ Scalable and Modular
-
-- Extend the platform to additional diseases and reporting facilities.
-- Add hospital connectors without changing core surveillance workflows.
-- Version datasets, case definitions, model outputs, and alert rules.
-- Support approved hosted or on-premises deployments.
+- Design the system to support additional diseases and facilities
+- Plan for web-based access across desktop and mobile browsers
+- Allow future API integrations where approved and available
+- Keep data, model, and alert-rule versions traceable
 
 ---
 
