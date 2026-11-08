@@ -73,14 +73,13 @@ If you're not familiar with Git or Pull Requests, you can still contribute:
 
 ## 🏗️ System Architecture
 
-### 1. Hospital and Laboratory Data Integration
+### 1. Disease Surveillance and Analytics Engine
 
-- Upload standardized **CSV files** containing approved patient and test data.
-- Synchronize records through **hospital and laboratory APIs** where available.
-- Map facility-specific fields to a shared reporting schema.
-- Validate dates, disease codes, locations, and test results.
-- Detect duplicate submissions and preserve corrected-record history.
-- Track import errors, reporting completeness, and synchronization status.
+- Collect and validate disease and laboratory records from participating facilities
+- Analyze suspected and confirmed cases by disease, location, and reporting period
+- Compare recent case counts with historical or seasonal baselines
+- Explore forecasting and hotspot-detection approaches
+- Generate signals for review by authorized public health personnel
 
 ### 2. AI and Early-Warning Engine
 
