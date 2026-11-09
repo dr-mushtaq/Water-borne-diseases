@@ -69,11 +69,23 @@ If you're not familiar with Git or Pull Requests, you can still contribute:
 
 ---
 
-
-
 **Setup status:** Installation commands will be added when application code and dependencies are available. This workspace currently contains documentation, the reference paper, and the dashboard image.
 
 ## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+    A[Hospitals and Laboratories] --> B[CSV Uploads or Approved API Sync]
+    B --> C[Validation and Deduplication]
+    C --> D[Restricted Data Storage]
+    C --> E[Errors Returned for Correction]
+    D --> F[Aggregation and Analytics]
+    F --> G[Surveillance Rules and Forecast Models]
+    G --> H[Dashboard and Hotspot Maps]
+    G --> I[Alert Queue]
+    I --> J[District Health Officer Review]
+    J --> K[Investigation and Resolution]
+```
 
 
 ### 1. Disease Surveillance and Analytics Engine
@@ -120,20 +132,6 @@ If you're not familiar with Git or Pull Requests, you can still contribute:
 - Store forecasts, alert history, and audit records.
 - Apply role-based access and organization boundaries.
 - Support authorized aggregate reporting and reproducible model evaluation.
-
-```mermaid
-flowchart TD
-    A[Hospitals and Laboratories] --> B[CSV Uploads or Approved API Sync]
-    B --> C[Validation and Deduplication]
-    C --> D[Restricted Data Storage]
-    C --> E[Errors Returned for Correction]
-    D --> F[Aggregation and Analytics]
-    F --> G[Surveillance Rules and Forecast Models]
-    G --> H[Dashboard and Hotspot Maps]
-    G --> I[Alert Queue]
-    I --> J[District Health Officer Review]
-    J --> K[Investigation and Resolution]
-```
 
 ## 📌 Key Features
  
