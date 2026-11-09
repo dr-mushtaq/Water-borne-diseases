@@ -244,70 +244,26 @@ Collect only data justified by the agreed surveillance purpose. Define repeat-te
 
 ---
 
-## 🚀 Development Plan
-
-### Phase 1: Prototype
-
-- Review the available datasets, notebooks, diagrams, and project documents
-- Define the disease case categories and reporting periods
-- Create a documented data format; use synthetic data for early demonstrations
-- Build an initial workflow for data validation and aggregate summaries
-- Create a basic dashboard for trends and reporting coverage
-
-### Phase 2: Evaluation
-
-- Check data quality, missing values, duplicate handling, and case-counting rules
-- Compare forecasting approaches with simple historical or seasonal baselines
-- Use time-based test sets to evaluate forecasts on later reporting periods
-- Consider MAE, RMSE, and prediction-interval coverage for forecasting
-- Evaluate alert sensitivity, missed events, and false-alert frequency
-- Assess malaria and typhoid separately
-
-> Results must be reported only after evaluation on suitable project data. Results from other datasets or projects should not be presented as this project's performance.
-
-### Phase 3: Enhancement
-
-- Improve dashboard usability and geographic summaries
-- Add reporting-completeness and data-freshness indicators
-- Explore forecast visualizations with uncertainty information
-- Add alert review and investigation tracking
-- Collect feedback from relevant public health stakeholders
-
-### Phase 4: Integration and Pilot
-
-- Identify an authorized pilot partner and define permitted data use
-- Test an approved hospital or laboratory data exchange
-- Reconcile uploaded or synchronized records with their source
-- Test monitoring, backups, access controls, and recovery procedures
-- Review pilot results before considering wider deployment
-
-### Phase 5: Data and Storage
-
-- Define a consistent data schema and data provenance requirements
-- Establish appropriate access controls, retention, and correction procedures
-- Protect sensitive data and collect only what is needed for the defined purpose
-- Track dataset versions and model inputs for reproducible evaluation
-- Document limitations caused by missing or delayed reporting
-
-### Phase 6: Governance and Safety
-
-- Agree on data-sharing authority, permitted uses, and responsible personnel
-- Review applicable local privacy, health-data, and regulatory requirements with qualified partners
-- Document intended use, system limitations, and human review responsibilities
-- Require authorized public health review before acting on surveillance signals
-- Do not claim regulatory approval or legal compliance unless it has been independently established
-
-## 🔮 Future Scope
-
-- Integrate additional hospitals and diagnostic laboratories
-- Add other diseases when suitable data and case definitions are available
-- Explore environmental or weather data where its relevance and quality are established
-- Add multilingual and mobile-friendly reporting workflows
-- Support offline-assisted reporting for facilities with limited connectivity
-- Improve district-level trend analysis and public health planning tools
-- Evaluate forecasting and alerting approaches through supervised research
-
+## 🚀 Development Roadmap
+ 
+| Phase | Focus | Key activities |
+| --- | --- | --- |
+| **1. Prototype** | Foundations | Define case categories and reporting periods; document the data format; build validation and aggregate summaries on synthetic data; basic trend and coverage dashboard |
+| **2. Evaluation** | Evidence | Check data quality and counting rules; compare forecasts against seasonal baselines using time-based test sets; report MAE, RMSE, and interval coverage; assess alert sensitivity, missed events, and false alerts; evaluate each disease separately |
+| **3. Enhancement** | Usability | Improve geographic summaries; add completeness and freshness indicators; forecast charts with uncertainty; alert review and investigation tracking; stakeholder feedback |
+| **4. Integration & pilot** | Real-world test | Identify an authorized pilot partner; test an approved data exchange; reconcile records with source; test monitoring, backups, access controls, and recovery |
+| **5. Data & storage** | Reliability | Consistent schema and provenance; access controls, retention, and corrections; dataset and model-input versioning; document limits from missing or delayed reporting |
+| **6. Governance & safety** | Trust | See [Governance and Safety](#-governance-and-safety) |
+ 
+> Report results only after evaluation on suitable project data. Results from other datasets or projects must not be presented as this project's performance.
+ 
+### 🔮 Future scope
+- More hospitals, laboratories, and diseases (once case definitions and data exist).
+- Environmental or weather data where relevance and quality are established.
+- Multilingual, mobile-friendly, and offline-assisted reporting.
+- Stronger district-level trend analysis and planning tools.
 ---
+
 
 ## 📚 Research Foundation
 
