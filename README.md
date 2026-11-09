@@ -14,6 +14,17 @@ The platform aims to help health teams identify unusual increases in reported ca
 
 **Disease scope:** Malaria is primarily mosquito-borne, so the platform uses the broader term **disease surveillance** rather than describing both diseases as waterborne. [WHO malaria fact sheet](https://www.who.int/news-room/fact-sheets/detail/malaria).
 
+## ✅ Quick Start Checklist with Links
+
+- Review the [Research Foundation](#-research-foundation).
+- Introduction [YouTube Video 1](https://youtu.be/_mAb_7StI1U?si=XqX-cS35eBp0St0G). [YouTube Video 2](https://youtu.be/1fB6xxwRAnI?si=Q-2lJQif40XmLCXQ).
+- View the [Dashboard Reference](#-dashboard-reference).
+- Define the [Data Requirements](#-data-requirements) with participating hospitals.
+- Follow the [Development Plan](#-development-plan).
+- Related work Review Sheet [Related work Review Sheet](https://docs.google.com/spreadsheets/d/17c9r8ydv93V2gInOBzJR9l85RrYYYptdluYYziDOTv8/edit?usp=sharing).
+- Agree on case definitions, reporting frequency, alert ownership, and authorized data use.
+- Prepare synthetic data for the initial prototype.
+
 ---
 
 ## 🤝 Contributing
@@ -58,16 +69,7 @@ If you're not familiar with Git or Pull Requests, you can still contribute:
 
 ---
 
-## ✅ Quick Start Checklist with Links
 
-- Review the [Research Foundation](#-research-foundation).
-- Explore the [System Architecture](#-system-architecture).
-- View the [Dashboard Reference](#-dashboard-reference).
-- Define the [Data Requirements](#-data-requirements) with participating hospitals.
-- Follow the [Development Plan](#-development-plan).
-- Related work Review Sheet [Related work Review Sheet](https://docs.google.com/spreadsheets/d/17c9r8ydv93V2gInOBzJR9l85RrYYYptdluYYziDOTv8/edit?usp=sharing).
-- Agree on case definitions, reporting frequency, alert ownership, and authorized data use.
-- Prepare synthetic data for the initial prototype.
 
 **Setup status:** Installation commands will be added when application code and dependencies are available. This workspace currently contains documentation, the reference paper, and the dashboard image.
 
