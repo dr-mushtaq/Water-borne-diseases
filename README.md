@@ -17,7 +17,7 @@ The platform aims to help health teams identify unusual increases in reported ca
 ## ✅ Quick Start Checklist with Links
 
 - Review the [Research Foundation](#-research-foundation).
-- Introduction [YouTube Video 1](https://youtu.be/_mAb_7StI1U?si=XqX-cS35eBp0St0G). [YouTube Video 2](https://youtu.be/1fB6xxwRAnI?si=Q-2lJQif40XmLCXQ).
+- **Watch the Introduction** [Video 1](https://youtu.be/_mAb_7StI1U?si=XqX-cS35eBp0St0G). [-Video 2](https://youtu.be/1fB6xxwRAnI?si=Q-2lJQif40XmLCXQ).
 - View the [Dashboard Reference](#-dashboard-reference).
 - Define the [Data Requirements](#-data-requirements) with participating hospitals.
 - Follow the [Development Plan](#-development-plan).
