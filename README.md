@@ -136,49 +136,16 @@ flowchart TD
 ```
 
 ## 📌 Key Features
-
-### 🦠 Disease Surveillance
-
-- Monitor malaria and typhoid cases separately
-- Distinguish suspected cases from confirmed cases
-- Review disease trends across reporting periods and locations
-- Keep observed data separate from forecasts or model estimates
-
-### 🏥 Hospital and Laboratory Reporting
-
-- Plan for standardized data uploads
-- Validate incoming records and provide error summaries
-- Track reporting completeness and data freshness
-- Support future connections to approved health information systems
-
-### 🗺️ Geographic Monitoring
-
-- Summarize reported cases by approved district or locality boundaries
-- Highlight unusual increases for further investigation
-- Distinguish a patient's area of residence from the reporting facility
-- Consider missing or delayed reports when interpreting geographic patterns
-
-### 🚨 Early-Warning Signals
-
-- Compare current case counts with agreed reference levels
-- Flag unusual patterns for authorized personnel to review
-- Record the reason for an alert and its review status
-- Treat alerts as prompts for investigation—not as confirmation of an outbreak
-
-### 📊 Data-Driven Insights
-
-- Summarize suspected cases, confirmed cases, and test results
-- Display trends and reporting coverage
-- Support authorized aggregate reports
-- Make limitations and missing data visible to users
-
-### 🌐 Extensible Platform
-
-- Design the system to support additional diseases and facilities
-- Plan for web-based access across desktop and mobile browsers
-- Allow future API integrations where approved and available
-- Keep data, model, and alert-rule versions traceable
-
+ 
+| Area | Planned capabilities |
+| --- | --- |
+| 🦠 **Disease surveillance** | Malaria and typhoid tracked separately; suspected vs. confirmed cases; observed data kept apart from forecasts |
+| 🏥 **Hospital & lab reporting** | Standardized uploads, validation with error summaries, completeness and data-freshness tracking, future connections to approved systems |
+| 🗺️ **Geographic monitoring** | Cases by approved district or locality; residence area distinguished from reporting facility; missing or delayed reports shown when reading maps |
+| 🚨 **Early-warning signals** | Comparison with agreed reference levels; recorded alert reason and review status; alerts treated as prompts for investigation, **not** outbreak confirmation |
+| 📊 **Insights & reports** | Case, test, and trend summaries; authorized aggregate reports; limitations and missing data kept visible |
+| 🌐 **Extensibility** | Additional diseases and facilities; desktop and mobile access; versioned data, models, and alert rules |
+ 
 ---
 
 ## 🖼️ Dashboard Reference
