@@ -34,10 +34,10 @@ We welcome suggestions and contributions to this list of Water-borne diseases!
 ### ✅ How to Contribute
 
 1. **Fork** this repository.
-2. **Add your Projects Folder** in the appropriate category (alphabetically, if possible).
+2. **Add your Projects Folder** in the repo (For example- ALI- Fall 2026).
 3. Include the following details:
-   - Folder Name **Student Name** (Student ID)- include following files
-     - A **Details description of your project.md file **
+   - Folder Name **Student Name-Fall 2026-BC123244** (Student ID)- include following files
+     - A **Details description of your project ( ReadMe.md file) **
      - Complete Code
      - Complete Diagram
 4. Create a **Pull Request (PR) after Final Viva** with a clear title and description of your changes.
