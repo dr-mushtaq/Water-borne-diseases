@@ -24,7 +24,7 @@ The platform aims to help health teams identify unusual increases in reported ca
 - Related work Review Sheet [Related work Review Sheet](https://docs.google.com/spreadsheets/d/17c9r8ydv93V2gInOBzJR9l85RrYYYptdluYYziDOTv8/edit?usp=sharing).
 - Agree on case definitions, reporting frequency, alert ownership, and authorized data use.
 - Prepare synthetic data for the initial prototype.
-
+- Template for Documentation [Data Requirements](https://erik1g.github.io/study-manager/admin/installation) with participating hospitals.
 ---
 
 ## 🤝 Contributing
