@@ -26,8 +26,7 @@ The platform aims to help health teams identify unusual increases in reported ca
 - Prepare synthetic data for the initial prototype.
 - Template for Documentation [Data Requirements](https://erik1g.github.io/study-manager/admin/installation) with participating hospitals.
 ---
-**Dear Students,**
-
+### **Dear Students,**
 We will hold an online interactive session every **Thursday** via **Google Meet**, according to the following schedule:
 
 | **Day** | Every Thursday |
@@ -37,24 +36,17 @@ We will hold an online interactive session every **Thursday** via **Google Meet*
 | **Meeting Link** | [Join Google Meet](https://meet.google.com/pne-kegy-ccv?authuser=1&hl=en) |
 
 **Topic/Agenda:**
-
 The session will focus on discussing questions and queries related to the project **"Disease Surveillance and Early-Warning Platform – Early Warnings."**
-
 Please prepare your questions in advance of each session. Ensure that all questions are relevant to the project so they can be discussed effectively during the session.
-
 If you have any questions or concerns, please contact us at:
-
 **Team ID:** themushtaq48
 
 **Important Instructions:**
-
 1. Please send a joining request using the Google Meet link provided above.
 2. Mention your **VU Student ID and full name** when requesting to join the session.
 
 We look forward to your active participation.
 
-**Best Regards,**  
-**CS626 Course Team**
 
 ## 🤝 Contributing
 
